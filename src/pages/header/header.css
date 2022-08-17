@@ -8,7 +8,7 @@
 .curve {
   position: absolute;
   width: 100%;
-  top: -20px;
+  top: -25px;
   overflow-x: hidden;
   right: 0;
   z-index: -999;
@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 1rem;
 }
 .delivery {
   display: flex;
@@ -76,10 +76,11 @@
   flex-direction: row;
   justify-content: flex-start;
   margin-top: 1rem;
+  cursor: pointer;
+  width: 100%;
 }
 
 .header-button button {
-  width: 168px;
   min-height: 60px;
   font-family: var(--font-family);
   font-style: normal;
@@ -91,11 +92,13 @@
   border: none;
   background: #b91122;
   cursor: pointer;
-  margin-right: 1.2rem;
+  margin-right: 1.3rem;
+  padding: 1rem;
 }
 
 .header-button img {
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .header-button-container p {
@@ -108,6 +111,7 @@
   color: #000000;
   opacity: 0.4;
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .header-product-img {
@@ -115,7 +119,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .header-product-img img {
@@ -133,4 +137,97 @@
 .product-tag img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .product-tag {
+    display: none;
+  }
+  .header-content {
+    margin: 0 0 0rem;
+  }
+
+  .curve {
+    display: flex;
+    top: 300px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .header{
+    padding: 0rem 4rem;
+  }
+  .header h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .curve {
+    display: flex;
+    top: 300px;
+    justify-content: center;
+  }
+
+  .header-content h4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .header-button button {
+    font-size: 16px;
+  }
+
+  .header-button img {
+    font-size: 16px;
+  }
+
+  .header-button p {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width:490px) {
+  .header{
+    padding: 1rem 2rem
+  }
+  .header h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .curve {
+    display: flex;
+    top: 50px;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-content h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header-content p {
+    font-size: 14px;
+  }
+
+  .header-button button {
+    font-size: 12px;
+  }
+
+  .header-button img {
+    font-size: 16px;
+  }
+
+  .header-button p {
+    font-size: 16px;
+  }
+
 }
