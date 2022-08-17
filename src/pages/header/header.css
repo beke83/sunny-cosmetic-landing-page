@@ -1,0 +1,136 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.curve {
+  position: absolute;
+  width: 100%;
+  top: -20px;
+  overflow-x: hidden;
+  right: 0;
+  z-index: -999;
+}
+
+.header-content {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.delivery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 242px;
+  height: 36px;
+  background: #ffdad7;
+  border: 1px solid #fcc7c3;
+  border-radius: 50px;
+  /* color: var(--color-text); */
+}
+
+.header-content p {
+  font-family: var(--font-family);
+  color: #524439;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.delivery span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 22px;
+  height: 22px;
+}
+
+.header-content h1 {
+  font-family: var(--heading-family);
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 86px;
+  letter-spacing: -0.07em;
+  color: var(--color-heading);
+  margin-top: 1rem;
+}
+
+.header-content h4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+  opacity: 0.4;
+  margin: 0.75rem 0;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.header-button button {
+  width: 168px;
+  min-height: 60px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background: #b91122;
+  cursor: pointer;
+  margin-right: 1.2rem;
+}
+
+.header-button img {
+  cursor: pointer;
+}
+
+.header-button-container p {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.4;
+  margin-left: 1rem;
+}
+
+.header-product-img {
+  flex: 1.13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.header-product-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-tag {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-tag img {
+  width: 100%;
+  height: 100%;
+}
