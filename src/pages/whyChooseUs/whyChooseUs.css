@@ -1,5 +1,5 @@
 .whyChooseUs {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }
@@ -65,15 +65,16 @@
 .how-to-use {
   display: flex;
   flex-direction: row;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .how-to-use-img {
-  flex: 1;
+  flex: 1.5;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-right: 2rem;
+  /* border: 2px solid black; */
 }
 
 .how-to-use-img img {
@@ -87,6 +88,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  /* border: 2px solid black; */
 }
 
 .how-to-use-description h5 {
@@ -99,12 +101,165 @@
 }
 
 .how-to-use-description p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #646464;
+  padding-bottom: 1rem;
+  max-width: 410px;
+}
+
+.how-to-use-description img {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .how-to-use {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+  }
+
+  /* .product-padding {
+    padding: 3rem 0rem;
+  } */
+
+  .how-to-use-img {
+    flex: 1;
+  }
+
+  .how-to-use-description {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chooseUs-padding {
+    padding: 3rem 2rem;
+    /* border: 2px solid black; */
+  }
+
+  .how-to-use {
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+  }
+
+  .how-to-use-description p {
     font-family: var(--font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-letter-spacing: 0.01em;
-color: #646464;
-padding-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #646464;
+    padding-bottom: 1rem;
+    max-width: 710px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .whyChooseUs-header h3 {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 240px;
+  }
+  .how-to-use {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .whyChooseUs-header h3 {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 240px;
+  }
+
+  .chooseUs-padding {
+    padding: 3rem 2rem;
+    /* border: 2px solid black; */
+  }
+
+  .how-to-use {
+    padding: 2rem 1rem;
+  }
+
+  .how-to-use-description h5 {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .whyChooseUs-header h3 {
+    font-size: 23px;
+    line-height: 30px;
+    max-width: 240px;
+    padding-top: 0;
+  }
+
+  .chooseUs-padding {
+    padding: 3rem 2rem;
+    /* border: 2px solid black; */
+  }
+
+  .how-to-use {
+    padding: 2rem 1rem;
+  }
+
+  .how-to-use-description h5 {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ph-info-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .ph-info span {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #494949;
+  }
+  .ph-info span:last-child {
+    font-size: 12px;
+  }
+
+  .chooseUs-padding {
+    padding: 3rem 2rem;
+    /* border: 2px solid black; */
+  }
+
+  .how-to-use {
+    padding: 2rem 0rem;
+  }
+
+  .how-to-use-description h5 {
+    padding-top: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .how-to-use {
+    padding: 2rem 0rem;
+  }
+
+  .how-to-use-description h5 {
+    padding-top: 2rem;
+  }
 }

@@ -20,16 +20,16 @@ const WhyChooseUs = () => {
           </div>
         </div>
         <div className='how-to-use'>
-        <div className="how-to-use-img">
-          <img src={ProductUse} alt="use-product-img" />
+          <div className="how-to-use-img">
+            <img src={ProductUse} alt="use-product-img" />
+          </div>
+          <div className="how-to-use-description">
+            <h5>Apply & Ingredients</h5>
+            <p>Give your face that gorgeous sun-kissed look with high-quality bronzers! Makeup city is a house to international brands that sell natural-looking bronzers. Bronzing is about giving your face the perfect dimension and warmth. </p>
+            <p>If you are looking for ways to warm up your pale skin, apply bronzer, and see the difference. Bronzer face seems the smart way to add glamour to your otherwise simplistic look.</p>
+            <img src={LearnMoreButton} alt="learn-more-button" />
+          </div>
         </div>
-        <div className="how-to-use-description">
-          <h5>Apply & Ingredients</h5>
-          <p>Give your face that gorgeous sun-kissed look with high-quality bronzers! Makeup city is a house to international brands that sell natural-looking bronzers. Bronzing is about giving your face the perfect dimension and warmth. </p>
-          <p>If you are looking for ways to warm up your pale skin, apply bronzer, and see the difference. Bronzer face seems the smart way to add glamour to your otherwise simplistic look.</p>
-          <img src={LearnMoreButton} alt="learn-more-button" />
-        </div>
-      </div>
       </div>
     </>
   )
