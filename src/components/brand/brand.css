@@ -1,0 +1,110 @@
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+}
+
+.brand-logo-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.brand-header {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #c8ced8;
+}
+
+.brand-logo-container div {
+  margin: 3rem;
+}
+
+.brand-header {
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .brand-logo-container {
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .brand-padding {
+        padding: 1rem 5rem 4rem;
+    }
+    .brand-logo-container {
+      overflow-x: scroll;
+      width: 120%;
+    }
+  }
+
+@media screen and (max-width: 550px) {
+    .brand-padding {
+        padding: 1rem 5rem 4rem;
+    }
+    .brand-logo-container {
+      overflow-x: scroll;
+      width: 120%;
+    }
+
+    .brand-logo-container div {
+        margin: 2rem;
+      }
+  }
+@media screen and (max-width: 490px) {
+    .brand-padding {
+        padding: 1rem 5rem 4rem;
+    }
+    .brand-logo-container {
+      overflow-x: scroll;
+      width: 140%;
+    }
+
+    .brand-logo-container div {
+        margin: 2rem;
+      }
+  }
+@media screen and (max-width: 450px) {
+    .brand-padding {
+        padding: 1rem 4rem 4rem;
+    }
+    .brand-logo-container {
+      overflow-x: scroll;
+      width: 140%;
+    }
+
+    .brand-logo-container div {
+        margin: 2rem;
+      }
+  }
+@media screen and (max-width: 375px) {
+    .brand-padding {
+        padding: 1rem 4rem 4rem;
+    }
+    .brand-logo-container {
+      overflow-x: scroll;
+      width: 150%;
+    }
+
+    .brand-logo-container div {
+        margin: 1.5rem;
+      }
+
+      .brand-header {
+          font-size: 14px;
+      }
+  }
+
+
+
