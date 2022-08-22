@@ -31,7 +31,7 @@ const Testimonials = () => {
             <h5>Manager</h5>
           </>
         )}
-        {testimonials === 'tab3' && (
+        {testimonials === 'tab3' && ( 
           <>
             <h3>Wonderful product. It is the best!</h3>
             <p>“If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
@@ -41,11 +41,13 @@ const Testimonials = () => {
           </>
         )}
         <div className='testi-scroll'>
-          <div className='testimonial-ellipses'
+          <div className={testimonials === 'tab1' ? 'testimonial-ellipses' : 'testimonial-ellipses-active'}
             onClick={() => setTestimonials('tab1')} />
-          <div className='testimonial-ellipses'
+
+          <div className={testimonials === 'tab2' ? 'testimonial-ellipses' : 'testimonial-ellipses-active'}
             onClick={() => setTestimonials('tab2')} />
-          <div className='testimonial-ellipses'
+
+          <div className={testimonials === 'tab3' ? 'testimonial-ellipses' : 'testimonial-ellipses-active'}
             onClick={() => setTestimonials('tab3')} />
         </div>
       </div>

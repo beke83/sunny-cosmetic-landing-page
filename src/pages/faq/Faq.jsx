@@ -1,10 +1,12 @@
 import React from 'react';
+import Accordion from '../../components/accordion/Accordion';
 import './faq.css';
 
 const Faq = () => {
   return (
-    <div>
-      Faq
+    <div className='faq faq-padding'>
+      <h2>FAQ</h2>
+      <Accordion />
     </div>
   )
 }
