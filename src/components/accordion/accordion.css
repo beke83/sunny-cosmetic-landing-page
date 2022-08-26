@@ -1,0 +1,9 @@
+.accordion-container {
+  border: 2px solid #000000
+}
+
+.accordion-container-group {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}

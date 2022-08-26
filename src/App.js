@@ -11,7 +11,7 @@ const App = () => {
       <WhyChooseUs />
       <Brand />
       <Testimonials />
-      <Faq />
+      {/* <Faq /> */}
       <CTA />
       <Footer />
     </div>

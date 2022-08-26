@@ -4,7 +4,7 @@ import './faq.css';
 
 const Faq = () => {
   return (
-    <div className='faq faq-padding'>
+    <div className='faq-padding'>
       <h2>FAQ</h2>
       <Accordion />
     </div>
