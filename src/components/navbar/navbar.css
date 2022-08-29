@@ -95,9 +95,10 @@
   margin-top: 1rem;
   z-index: 1000;
   width: 170px;
-  box-shadow: -3px -3px 4px -1px rgba(0, 0, 0, 0.76);
+  background: #F1F1F1;
+  /* box-shadow: -3px -3px 4px -1px rgba(0, 0, 0, 0.76);
   -webkit-box-shadow: -3px -3px 4px -1px rgba(0, 0, 0, 0.76);
-  -moz-box-shadow: -3px -3px 4px -1px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -3px -3px 4px -1px rgba(0, 0, 0, 0.76); */
 }
 
 .navbar-menu-container p {
